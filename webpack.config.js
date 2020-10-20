@@ -19,7 +19,7 @@ const jsLoaders = () => {
     }
   }]
 
-  if(isDev){
+  if (isDev) {
     loaders.push('eslint-loader');
   }
 
@@ -85,3 +85,4 @@ module.exports = {
     ]
   }
 }
+
